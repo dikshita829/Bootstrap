@@ -1,0 +1,47 @@
+body{
+    background-color: white;
+    background-image: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);;
+   max-height: 100vh;
+}
+.profile-picture{
+    max-height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: 5px solid white;
+    cursor: pointer;
+}
+.profile-picture:hover{
+
+
+}
+.skills-badge{
+   display: inline-block;
+   border: 1px solid black;
+   padding: 5px;
+   border-radius: 20px;
+   min-width: 115px;
+   text-align: center;
+   margin: 10px;
+   margin-left:20px ;
+   margin-left: 20px;
+   cursor: pointer;
+   box-shadow: 2px 2px 2px gray;
+   background-color: white;
+  
+}
+.skills-badge-img{
+    height: 20px;
+}
+.social-handle-container{
+    display: flex;
+    justify-content: space-around;
+}
+.social-handle{
+    background-color: wheat;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
